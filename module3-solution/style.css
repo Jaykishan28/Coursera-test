@@ -1,28 +1,6 @@
 *{
 	box-sizing: border-box;
 }
-div{
-	position: relative;
-}
-#head{
-	font-size: 25px !important;
-}
-#nav-list a{
-	color: white;
-	text-align: center;
-	font-weight: bold;
-	background: #61122f;
-	border: 1px solid white;
-}
-#nav-list a:hover, a:focus{
-	background: #E7E7E7;
-}
-#color{
-	background-color: yellow;
-}
-#border{
-	border: 1.5px solid #61122f;
-}
 @media (min-width: 768px){
 	div{
 		margin: 1%;
@@ -102,4 +80,26 @@ div{
 p{
 	text-align: center;
 	font-size: 100%;
+}
+div{
+	position: relative;
+}
+#head{
+	font-size: 25px !important;
+}
+#nav-list a{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	background: #61122f;
+	border: 1px solid white;
+}
+#nav-list a:hover, a:focus{
+	background: #E7E7E7;
+}
+#color{
+	background-color: yellow;
+}
+#border{
+	border: 1.5px solid #61122f;
 }
