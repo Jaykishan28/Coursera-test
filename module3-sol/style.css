@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+}
+@media (min-width: 768px){
+	div{
+		margin: 1%;
+		float: left;
+		width: 31%;
+	}
+}
+@media (max-width: 767px){
+	div{
+		margin: 2%;
+		width=100%;
+	}
+}
+#p1{
+	position: absolute;
+	top: 0px;
+	right:-0%;
+	margin: 0px;
+	height: 32px;
+	width: 90px;
+	background-color: magenta;
+	border: 1px solid black;
+}
+#p2{
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+	right:-0%;
+	height: 32px;
+	width: 90px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+#p3{
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+	right:-0%;
+	height: 32px;
+	width: 90px;
+	background-color: green;
+	border: 1px solid black;
+}
+#p11{
+	padding: 10px;
+}
+#p21{
+	padding: 10px;
+}
+#p31{
+	padding: 10px;
+}
+#div1{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: #505090;
+	height: 1000px;
+	border: 1px solid black;
+}
+#div2{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: #509000;
+	height: 1000px;
+	border: 1px solid black;
+}
+#div3{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: #FF9040;
+	height: 1000px;
+	border: 1px solid black;
+}
+p{
+	text-align: center;
+	font-size: 100%;
+}
+div{
+	position: relative;
+}
+#head{
+	font-size: 25px !important;
+}
+#nav-list a{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	background: #61122f;
+	border: 1px solid white;
+}
+#nav-list a:hover, a:focus{
+	background: #E7E7E7;
+}
+#color{
+	background-color: yellow;
+}
+#border{
+	border: 1.5px solid #61122f;
+}
